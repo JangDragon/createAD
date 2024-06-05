@@ -8,7 +8,7 @@ client = MongoClient(url)
 database = client['ad_storage']
 collection = database['ad']
 
-openai.api_key = 'sk-proj-FcANM0iFB2a3jX8EeirYT3BlbkFJT0Cy1RfqdxRjvHVLPuRc'
+openai.api_key = '-------API key--------'
 
 app = FastAPI()
 
